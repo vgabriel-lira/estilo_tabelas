@@ -1,0 +1,44 @@
+
+table.climatica {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    width: 20%;
+    font-size: 12px;
+    background-color: rgb(240, 248, 255);
+    margin-bottom: 20px;
+}
+
+table.climatica th,
+table.climatica td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.climatica th,
+table.climatica tr:hover {
+    background-color: rgb(168, 218, 213);
+}
+
+
+table.notas {
+    text-align: center;
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    min-width: 300px;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table.notas td {
+    padding: 5px;
+}
+
+table.notas .impar {
+    background-color: rgb(240, 248, 255);
+}
+
+table.notas .nome {
+    text-align: left;
+}
